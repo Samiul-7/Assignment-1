@@ -8,7 +8,15 @@ class CartSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Your Cart'),
+        backgroundColor: Colors.red,
+        title: Text('Detailed View'),
+        actions: [
+          ElevatedButton(onPressed:(){
+
+          },
+            child: const Text('Your Cart'),
+          )
+        ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
