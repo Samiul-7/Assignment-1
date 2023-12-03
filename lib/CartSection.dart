@@ -14,7 +14,7 @@ class CartSection extends StatelessWidget {
         actions: [
       PopupMenuButton<String>(
       onSelected: (value) {
-        // Handle the selected value
+
         print('Selected: $value');
       },
         itemBuilder: (BuildContext context) {
@@ -67,7 +67,7 @@ class CartSection extends StatelessWidget {
                         //mainAxisSize: MainAxisSize.min,
                         children: [
                           Image.asset(
-                            'assets/bkash.png', // Replace with your image asset path
+                            'assets/bkash.png',
                             height: 44.0,
                             width: 44.0,
                           ),
@@ -82,7 +82,7 @@ class CartSection extends StatelessWidget {
                         //mainAxisSize: MainAxisSize.min,
                         children: [
                         Image.asset(
-                        'assets/nagad.jpg', // Replace with your image asset path
+                        'assets/nagad.jpg',
                         height: 44.0,
                         width: 44.0,
                       ),
@@ -97,7 +97,7 @@ class CartSection extends StatelessWidget {
                         //mainAxisSize: MainAxisSize.min,
                         children: [
                           Image.asset(
-                            'assets/amex.jpg', // Replace with your image asset path
+                            'assets/amex.jpg',
                             height: 44.0,
                             width: 44.0,
                           ),
@@ -112,7 +112,7 @@ class CartSection extends StatelessWidget {
                         //mainAxisSize: MainAxisSize.min,
                         children: [
                           Image.asset(
-                            'assets/master.png', // Replace with your image asset path
+                            'assets/master.png',
                             height: 44.0,
                             width: 44.0,
                           ),
