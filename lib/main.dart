@@ -11,7 +11,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          centerTitle: true,
           backgroundColor: Colors.red,
           title: Text('E-Electronics'),
           actions: [
